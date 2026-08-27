@@ -4,23 +4,21 @@
 
 ### The Next-Generation Collaborative Cloud IDE & Multi-Language Execution Studio
 
-[![Live App](https://img.shields.io/badge/Live%20Web%20App-codesyne.vercel.app-06b6d4?style=for-the-badge&logo=vercel)](https://codesyne.vercel.app)
+[![Web App](https://img.shields.io/badge/Live%20App-codesyne.vercel.app-06b6d4?style=for-the-badge&logo=vercel)](https://codesyne.vercel.app)
 [![Windows 64-bit](https://img.shields.io/badge/Windows-64--bit%20EXE-0078D4?style=for-the-badge&logo=windows)](https://github.com/nakulsh02/CodeSyne/releases/download/v1.2.0/CodeSyne_1.2.0_x64-setup.exe)
 [![Windows 32-bit](https://img.shields.io/badge/Windows-32--bit%20EXE-D97706?style=for-the-badge&logo=windows)](https://github.com/nakulsh02/CodeSyne/releases/download/v1.2.0/CodeSyne_1.2.0_x86-setup.exe)
 [![Android](https://img.shields.io/badge/Android-APK%20v1.2.0-3DDC84?style=for-the-badge&logo=android)](https://github.com/nakulsh02/CodeSyne/releases/download/v1.2.0/CodeSyne-v1.2.0.apk)
 [![License](https://img.shields.io/badge/License-Freeware-8B5CF6?style=for-the-badge)](https://codesyne.vercel.app)
 
-
-
-<img src="https://codesyne.vercel.app/apple-touch-icon.png" alt="CodeSyne Logo" width="100" />
-
 <br/>
-<br/>
-
 
 **CodeSyne** is a high-performance, real-time collaborative development environment designed for modern engineers, teams, and students. It features instant zero-setup multi-language code execution, AI-powered intelligence, live real-time pair programming, and native cross-platform installers for Windows and Android.
 
 [🚀 Open Web IDE](https://codesyne.vercel.app) • [📥 Official Downloads](#-official-download-links-v120) • [✨ Key Features](#-key-features) • [💬 Report an Issue](https://github.com/nakulsh02/CodeSyne/issues)
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/nakulsh02/CodeSyne-Core/main/frontend/public/apple-touch-icon.png" alt="CodeSyne Banner" width="120" />
 
 </div>
 
@@ -29,6 +27,18 @@
 ## 📸 Overview & Interface Preview
 
 CodeSyne brings desktop-grade IDE ergonomics into a unified, responsive client with dark luxury aesthetic, instant multi-language terminals, and multiplayer room collaboration.
+
+```
+ _________________________________________________________________________
+| [File Tree] | ⚡ main.py                     | 🤖 AI Companion & Chat   |
+| ├── src/    | 1  import asyncio             | > Refactored sorting loop|
+| └── app.ts  | 2  async def start_server():  | > Time complexity: O(N)  |
+|             | 3      print("CodeSyne v1.2") |                          |
+|_____________|_______________________________|__________________________|
+| 📟 Interactive Sandboxed Terminal (JS, Python, C++, Rust, Java, SQL)   |
+| $ python main.py -> Executed in 12ms (Exit Code: 0)                   |
+|_________________________________________________________________________|
+```
 
 ---
 
