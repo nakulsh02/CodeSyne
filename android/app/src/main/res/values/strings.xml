@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">CodeSyne</string>
-    <string name="title_activity_main">CodeSyne</string>
-    <string name="package_name">app.codesyne.android</string>
-    <string name="custom_url_scheme">app.codesyne.android</string>
-</resources>
