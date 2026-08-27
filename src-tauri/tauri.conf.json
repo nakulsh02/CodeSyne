@@ -1,0 +1,114 @@
+{
+  "$schema": "https://raw.githubusercontent.com/tauri-apps/tauri/v1.8.0/tooling/cli/schema.json",
+  "build": {
+    "beforeBuildCommand": "npm run build:frontend",
+    "beforeDevCommand": "npm run dev",
+    "devPath": "http://localhost:3000",
+    "distDir": "../frontend/dist"
+  },
+  "package": {
+    "productName": "CodeSyne",
+    "version": "1.2.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      },
+      "http": {
+        "all": false,
+        "request": true,
+        "scope": ["https://*/*", "http://*/*"]
+      },
+      "dialog": {
+        "all": true,
+        "open": true,
+        "save": true
+      },
+      "fs": {
+        "all": false,
+        "readFile": true,
+        "writeFile": true,
+        "readDir": true
+      },
+      "notification": {
+        "all": true
+      },
+      "clipboard": {
+        "all": true,
+        "readText": true,
+        "writeText": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "Copyright (c) 2026 CodeSyne Team. All rights reserved.",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "identifier": "app.codesyne.desktop",
+      "longDescription": "A professional collaborative cloud and local development environment with integrated multi-language runtimes, intelligent terminal controls, live previews, and instant peer pairing.",
+      "macOS": {
+        "frameworks": [],
+        "minimumSystemVersion": "",
+        "exceptionDomain": "",
+        "signingIdentity": null,
+        "entitlements": null
+      },
+      "resources": [],
+      "shortDescription": "CodeSyne Desktop IDE",
+      "targets": ["nsis", "msi", "appimage", "deb"],
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "webviewInstallMode": {
+          "type": "downloadBootstrapper",
+          "silent": false
+        },
+        "nsis": {
+          "installerIcon": "icons/icon.ico",
+          "headerImage": null,
+          "sidebarImage": null,
+          "installMode": "currentUser",
+          "languages": ["English"],
+          "displayLanguageSelector": false
+        },
+        "wix": {
+          "language": "en-US"
+        }
+      }
+    },
+    "security": {
+      "csp": "default-src 'self' https: data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https: wss: http://localhost:* ws://localhost:*"
+    },
+    "updater": {
+      "active": false
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 850,
+        "resizable": true,
+        "title": "CodeSyne — Collaborative Cloud IDE",
+        "width": 1360,
+        "minWidth": 800,
+        "minHeight": 600,
+        "decorations": true,
+        "transparent": false,
+        "theme": "Dark",
+        "center": true
+      }
+    ]
+  }
+}

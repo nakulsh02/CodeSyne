@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no, viewport-fit=cover" />
+    <title>Codesyne — Collaborative Cloud IDE</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#080711" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Codesyne" />
+    <meta name="description" content="A modern collaborative cloud IDE." />
+    <script>
+      // Early PWA event listener to capture prompt immediately
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        window.deferredPrompt = e;
+        window.dispatchEvent(new CustomEvent('pwa-early-prompt', { detail: true }));
+      });
+
+      // Viewport reset handler to enforce mobile device scale when returning from external redirects (e.g. Google OAuth desktop view)
+      function forceMobileViewportReset() {
+        var viewport = document.querySelector('meta[name="viewport"]');
+        if (viewport) {
+          viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no, viewport-fit=cover');
+        }
+      }
+      window.addEventListener('pageshow', forceMobileViewportReset);
+      window.addEventListener('focus', forceMobileViewportReset);
+      window.addEventListener('load', forceMobileViewportReset);
+      document.addEventListener('visibilitychange', function() {
+        if (document.visibilityState === 'visible') forceMobileViewportReset();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <div style="min-height:100vh;background-color:#08080c;display:flex;align-items:center;justify-content:center;color:#f8fafc;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;padding:24px;box-sizing:border-box;overflow:hidden;">
+        <div style="display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px;max-width:380px;width:100%;">
+          <div style="width:52px;height:52px;border-radius:16px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;margin:0 auto;">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L14.2 9.8L22 12L14.2 14.2L12 22L9.8 14.2L2 12L9.8 9.8L12 2Z" fill="#818cf8" fill-opacity="0.25" stroke="#818cf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M18.5 2.5L19.3 4.7L21.5 5.5L19.3 6.3L18.5 8.5L17.7 6.3L15.5 5.5L17.7 4.7L18.5 2.5Z" fill="#a855f7" stroke="#c084fc" stroke-width="0.5"/>
+            </svg>
+          </div>
+          <div>
+            <h1 style="font-size:1rem;font-weight:700;letter-spacing:-0.01em;color:#ffffff;margin:0;">CodeSyne Cloud IDE</h1>
+            <p style="font-size:0.75rem;color:#94a3b8;margin:4px 0 0 0;font-weight:400;line-height:1.4;">Loading Workspace & Assets...</p>
+          </div>
+          <div style="display:inline-flex;align-items:center;gap:6px;padding:4px 12px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.08);border-radius:9999px;margin-top:4px;">
+            <div style="width:6px;height:6px;border-radius:50%;background-color:#38bdf8;animation:pulse 1.5s infinite ease-in-out;"></div>
+            <span style="font-size:0.675rem;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;color:#38bdf8;font-weight:600;letter-spacing:0.02em;">Readying Environment</span>
+          </div>
+        </div>
+      </div>
+      <style>
+        @keyframes pulse {
+          0%, 100% { opacity: 0.3; transform: scale(0.8); }
+          50% { opacity: 1; transform: scale(1.25); }
+        }
+      </style>
+    </div>
+    <script src="/assets/cat.js" defer></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

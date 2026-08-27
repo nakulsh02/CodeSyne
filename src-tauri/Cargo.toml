@@ -1,0 +1,20 @@
+[package]
+name = "codesyne-desktop"
+version = "1.2.0"
+description = "CodeSyne Desktop Collaborative IDE"
+authors = ["CodeSyne Team <support@codesyne.app>"]
+license = "MIT"
+repository = "https://github.com/codesyne/codesyne"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "1.5", features = [] }
+
+[dependencies]
+tauri = { version = "1.8", features = ["shell-open", "dialog-all", "notification-all", "clipboard-all"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[features]
+# this feature is used for production builds or when `beforeDevCommand` is not specified
+custom-protocol = ["tauri/custom-protocol"]
