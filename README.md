@@ -18,7 +18,7 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/nakulsh02/CodeSyne-Core/main/frontend/public/apple-touch-icon.png" alt="CodeSyne Banner" width="120" />
+<img src="https://codesyne.vercel.app/apple-touch-icon.png" alt="CodeSyne Banner" width="100" />
 
 </div>
 
