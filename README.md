@@ -57,18 +57,18 @@
 
 ---
 
-## 📥 Official Download Links & Interactive Guide
+## 📥 Official Download Links & GitHub Releases
 
-You can download CodeSyne packages directly or open our **Interactive Setup Guide**:
-- 📱 [**Open Android APK Download & Setup Guide**](https://codesyne.vercel.app/?download=android)
-- 💻 [**Open Windows .EXE Download & Setup Guide**](https://codesyne.vercel.app/?download=windows)
+You can download CodeSyne packages directly from the **Official GitHub Releases**:
 
-| Platform | Format | Architecture | Direct Download Link | Supported OS |
+📦 **[👉 Click Here to Go to Official GitHub Releases (Download APK / EXE)](https://github.com/nakulsh02/CodeSyne/releases)**
+
+| Platform | Format | Architecture | Direct Download / Release Link | Supported OS |
 | :--- | :--- | :--- | :--- | :--- |
-| **🪟 Windows (64-bit)** | `.exe` Installer | `x64` | [**Download 64-bit EXE**](https://github.com/nakulsh02/CodeSyne/releases/download/v1.2.0/CodeSyne_1.2.0_x64-setup.exe) | Windows 7 SP1, 8, 8.1, 10, 11 (64-bit) |
-| **🪟 Windows (32-bit)** | `.exe` Installer | `x86` | [**Download 32-bit EXE**](https://github.com/nakulsh02/CodeSyne/releases/download/v1.2.0/CodeSyne_1.2.0_x86-setup.exe) | Windows 7 SP1, 8, 8.1, 10 (32-bit) |
-| **🤖 Android Native** | `.apk` Package | `Universal` | [**Download Android APK**](https://github.com/nakulsh02/CodeSyne/releases/download/v1.2.0/CodeSyne-v1.2.0.apk) | Android 8.0 (Oreo) to Android 15 |
-| **🌐 Web App (PWA)** | Cloud Web App | `Universal` | [**Open codesyne.vercel.app**](https://codesyne.vercel.app) | Chrome, Edge, Brave, Safari, Firefox |
+| **🤖 Android Native** | `.apk` Package | `Universal` | [**Download Android APK (GitHub Releases) ↗**](https://github.com/nakulsh02/CodeSyne/releases) | Android 8.0 (Oreo) to Android 15 |
+| **🪟 Windows (64-bit)** | `.exe` Installer | `x64` | [**Download Windows 64-bit EXE (GitHub Releases) ↗**](https://github.com/nakulsh02/CodeSyne/releases) | Windows 7 SP1, 8, 8.1, 10, 11 (64-bit) |
+| **🪟 Windows (32-bit)** | `.exe` Installer | `x86` | [**Download Windows 32-bit EXE (GitHub Releases) ↗**](https://github.com/nakulsh02/CodeSyne/releases) | Windows 7 SP1, 8, 8.1, 10 (32-bit) |
+| **🌐 Web App (PWA)** | Cloud Web App | `Universal` | [**Launch Web IDE (codesyne.vercel.app) ↗**](https://codesyne.vercel.app) | Chrome, Edge, Brave, Safari, Firefox |
 
 ---
 
