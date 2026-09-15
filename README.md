@@ -1,12 +1,15 @@
 <div align="center">
 
-# ⚡ CodeSyne
+# ⚡ CodeSyne — Collaborative Cloud IDE
 
-### Real-Time Collaborative Cloud IDE & Multi-Language Execution Studio with AI Intelligence
+### Next-Generation Collaborative Cloud IDE & Multi-Language Execution Studio with AI Intelligence
+
+**Official Public Showcase Repository by [Nakul Sharma (@nakulsh02)](https://github.com/nakulsh02)**
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-codesyne.vercel.app-06b6d4?style=for-the-badge&logo=vercel)](https://codesyne.vercel.app)
 [![GitHub Stars](https://img.shields.io/github/stars/nakulsh02/CodeSyne?style=for-the-badge&logo=github&color=gold)](https://github.com/nakulsh02/CodeSyne/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-8B5CF6?style=for-the-badge)](./LICENSE)
+[![Author: nakulsh02](https://img.shields.io/badge/Author-nakulsh02-38bdf8?style=for-the-badge&logo=github)](https://github.com/nakulsh02)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
 [![Tauri & Rust](https://img.shields.io/badge/Desktop-Tauri%20%26%20Rust-FFC107?style=for-the-badge&logo=tauri)](https://tauri.app)
@@ -14,13 +17,13 @@
 
 <br/>
 
-**CodeSyne** is a high-performance, next-generation collaborative cloud development environment designed for modern engineers, teams, and learners. It combines instant zero-setup multi-language code execution, AI-powered intelligence, and real-time multiplayer pair programming into a unified experience across Web, Windows Desktop, and Android.
+**CodeSyne** (`nakulsh02/CodeSyne`) is a high-performance, next-generation collaborative cloud development environment designed by **Nakul Sharma**. It combines instant zero-setup multi-language code execution, AI-powered code intelligence, and real-time multiplayer pair programming into a unified experience across Web, Windows Desktop, and Android.
 
-[🚀 Launch Web IDE](https://codesyne.vercel.app) • [📥 Official Downloads](#-official-download-links) • [✨ Key Features](#-key-features) • [🛠️ Tech Stack](#️-tech-stack) • [🤝 Contributing](#-contribution-guidelines)
+[🚀 Launch Web IDE](https://codesyne.vercel.app) • [📥 Official Downloads](#-official-download-links) • [✨ Key Features](#-key-features) • [🏛️ Architecture](./docs/ARCHITECTURE.md) • [🛠️ Tech Stack](#️-tech-stack) • [🤝 Contributing](#-contribution-guidelines)
 
 <br/>
 
-<img src="https://codesyne.vercel.app/apple-touch-icon.png" alt="CodeSyne Logo" width="110" />
+<img src="https://codesyne.vercel.app/apple-touch-icon.png" alt="CodeSyne Logo by Nakul Sharma" width="110" />
 
 </div>
 
