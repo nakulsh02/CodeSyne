@@ -19,7 +19,7 @@
 
 **CodeSyne** (`nakulsh02/CodeSyne`) is a high-performance, next-generation collaborative cloud development environment designed by **Nakul Sharma**. It combines instant zero-setup multi-language code execution, AI-powered code intelligence, and real-time multiplayer pair programming into a unified experience across Web, Windows Desktop, and Android.
 
-[🚀 Launch Web IDE](https://codesyne.vercel.app) • [📥 Official Downloads](#-official-download-links) • [✨ Key Features](#-key-features) • [🏛️ Architecture](./docs/ARCHITECTURE.md) • [🛠️ Tech Stack](#️-tech-stack) • [🤝 Contributing](#-contribution-guidelines)
+[🚀 Launch Web IDE](https://codesyne.vercel.app) • [📥 Official Downloads](#-official-download-links) • [✨ Key Features](#-key-features) • [🛠️ Tech Stack](#️-tech-stack) • [🤝 Contributing](#-contribution-guidelines)
 
 <br/>
 
@@ -57,7 +57,11 @@
 
 ---
 
-## 📥 Official Download Links
+## 📥 Official Download Links & Interactive Guide
+
+You can download CodeSyne packages directly or open our **Interactive Setup Guide**:
+- 📱 [**Open Android APK Download & Setup Guide**](https://codesyne.vercel.app/?download=android)
+- 💻 [**Open Windows .EXE Download & Setup Guide**](https://codesyne.vercel.app/?download=windows)
 
 | Platform | Format | Architecture | Direct Download Link | Supported OS |
 | :--- | :--- | :--- | :--- | :--- |
